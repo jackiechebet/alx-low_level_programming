@@ -1,7 +1,7 @@
 #include<stdio.h>
 /**
  * main - C program that uses a puts function to print a sentence
- * return: 0 (Success)
+ * Return: 0 (Success)
  */
 int main(void)
 {
