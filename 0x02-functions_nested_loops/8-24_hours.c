@@ -1,5 +1,4 @@
 #include "main.h"
-#include <time.h>
 /**
  * jack_bauer - function to print his every minute of the day
  * / 10 allows for second digit to rotate
