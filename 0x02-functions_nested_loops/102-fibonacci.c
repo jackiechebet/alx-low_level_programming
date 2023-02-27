@@ -7,20 +7,25 @@
  */
 int main(void)
 {
-	int i;
-	int t1 = 0, t2 = 1;
+	int i = 0;
+	long j = 1, k = 2;
 
-	int nextTerm = t1 + t2;
-
-	printf("%d, %d, ", t1, t2);
-
-	for (i = 3; i <= 50; ++i)
+	while (i < 50)
 	{
-		printf("%d, ", nextTerm);
-		t1 = t2;
-		t2 = nextTerm;
-		nextTerm = t1 + t2;
+		if (i == 0)
+			printf("%ld", j);
+		else if (i == 1)
+			printf(", %ld", k);
+		else
+		{
+			k += j;
+			j = k - j;
+			printf(", %ld", k);
+		}
+
+		++i;
 	}
+
+	printf("\n");
 	return (0);
 }
-
