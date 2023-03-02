@@ -2,7 +2,6 @@
 /**
  * print_line - function that draws a straight line
  * @n: integer input
- * Return: '_' when n > 0 and 0 when n <= 0
  */
 void print_line(int n)
 {
