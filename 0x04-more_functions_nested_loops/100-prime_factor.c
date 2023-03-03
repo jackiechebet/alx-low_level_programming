@@ -1,11 +1,11 @@
 #include <stdio.h>
 #include <math.h>
 /**
- * main - function that finds and prints the largest 
+ * main - function that finds and prints the largest
  * prime factor of a number
  * Return: 0 always
  */
-int main()
+int main(void)
 {
 	long int n;
 	long int max;
