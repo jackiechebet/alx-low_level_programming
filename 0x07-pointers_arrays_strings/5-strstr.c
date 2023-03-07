@@ -3,7 +3,7 @@
  * _strstr - function that locates a substring
  * @haystack: mainstring
  * @needle: substring to be searched in the main string
- * Return: the pointer to the first occurrence of the 
+ * Return: the pointer to the first occurrence of the
  * given substring in the main string
  * else returns a null pointer.
  */
