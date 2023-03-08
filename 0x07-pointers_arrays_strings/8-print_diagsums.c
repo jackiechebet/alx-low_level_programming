@@ -4,7 +4,8 @@
  * print_diagsums - function that prints sum of two diagonoals
  * of a square matrix
  * @a: input
- * size: size of the array
+ * @size: input
+ * Return: 0 always
  */
 void print_diagsums(int *a, int size)
 {
