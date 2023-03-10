@@ -1,6 +1,10 @@
 #include "main.h"
 #include <stdio.h>
-
+/**
+ *_sqrt_recursion - square root
+ *@n: integer
+ *Return: value squeare
+ */
 
 int _sqrt_recursion(int n)
 {
